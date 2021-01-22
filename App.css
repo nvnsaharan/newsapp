@@ -1,0 +1,79 @@
+.App{
+  min-height: 100vh;
+  background: white ;
+  width: 100%;
+}
+
+.content{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.new-report{
+  margin: 10px 5px 25px 5px;
+  height: 150px;
+}
+.new-panel{
+  height: 400px;
+  width: 325px;
+  border:2px solid gray ;
+  background-color: lightgray;
+  border-radius:5px ;
+  margin: 5px 2.5px 10px 2.5px;
+
+}
+.new-image{
+  height: 150px;
+  width: 280px;
+  margin-left: 20px;
+  top: 200px;
+  border-radius:10px;
+  top: 50px;
+  border: white 2px solid;
+}
+.new-button{
+  text-decoration: none;
+  color: white;
+  background: gray;
+  height: 30px;
+  font-weight: bold;
+  font-size: 18px;
+  width: 150px;
+  margin: 15px auto;
+border: white 2px solid;
+border-radius: 50px;
+text-align: center;
+}
+.new-button:hover{
+color: gray;
+  background: white;
+}
+.new-link{
+  text-decoration: none;
+}
+
+.navbar{
+  height: 50px;
+  background: lightgray;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  padding: auto;
+}
+.title{
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  margin-left: 80px;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+@import '~antd/dist/antd.css';
+
+.ant-dropdown-link{
+  margin-right: 100px;
+  margin-top: 10px;
+  height: 30px;
+border: 2px solid gray;
+}
+
